@@ -1,6 +1,6 @@
 # Real-CLP
 ```
-Extension to Gnome-Shell v.(36,38,40,41,42), for conversion of Dollar (USD) to Peso Chileno (CLP).
+Extension to Gnome-Shell v.(36,38,40,41,42), for conversion of Real (BRL) to Peso Chileno (CLP).
 
 # Licence
 ```
