@@ -1,6 +1,6 @@
-# Real-CLP
+# Dollar-CLP
 ```
-Extension to Gnome-Shell v.(36,38,40,41,42), for conversion of Real (BRL) to Peso Chileno (CLP).
+Extension to Gnome-Shell v.(36,38,40,41,42), for conversion of Dollar (USD) to Peso Chileno (CLP).
 
 # Licence
 ```
@@ -18,10 +18,9 @@ SPDX-License-Identifier: GPL-2.0-or-later
 ```
 # How to install
 
-cd /tmp && git clone https://github.com/albolea/real-clp.git && mv real-clp real-clp@albolea.github.com && cp -av real-clp@albolea.github.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension real-clp@albolea.github.com && rm -rf real-clp@albolea.github.com .
-```
+cd /tmp && git clone https://github.com/albolea/dollar-clp.git && mv dollar-clp dollar-clp@albolea.github.com && cp -av dollar-clp@albolea.github.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension dollar-clp@albolea.github.com && rm -rf dollar-clp@albolea.github.com .
 Or just download dollar-clp@albolea.github.com.zip form releases and unzip dollar-clp@albolea.github.com to ~/.local/share/gnome-shell/extensions/ .
-
+```
 To restart GNOME Shell in X11, pressing Alt+F2 to open the Run Dialog and enter restart 
 (or just r). 
 In Wayland Log out and Login agaian.
