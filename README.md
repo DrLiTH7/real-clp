@@ -15,11 +15,10 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 SPDX-License-Identifier: GPL-2.0-or-later
-```
+
 # How to install
-
+```
 cd /tmp && git clone https://github.com/albolea/real-clp.git && mv real-clp real-clp@albolea.github.com && cp -av real-clp@albolea.github.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension real-clp@albolea.github.com && rm -rf real-clp@albolea.github.com .
-
 ```
 Or just download real-clp@albolea.github.com.zip form releases and unzip real-clp@albolea.github.com to ~/.local/share/gnome-shell/extensions/ .
 
