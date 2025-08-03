@@ -80,14 +80,14 @@ function load_json_async(){
 
     let message = Soup.form_request_new_from_hash(
         'GET', 
-        "https://economia.awesomeapi.com.br/last/BRL-CLP", 
+        "https://economia.awesomeapi.com.br/last/BRL-USD", 
         {});
     
     _httpSession.queue_message(message, () => {
         try {
             if (!message.response_body.data) {
                 panelButtonText = new St.Label({
-                    text : "(1 BRL = " + _dollarQuotation + " CLP)",
+                    text : "(1 BRL = " + _dollarQuotation + "",
                     y_align: Clutter.ActorAlign.CENTER,
                 });
                 panelButton.set_child(panelButtonText);
@@ -101,7 +101,7 @@ function load_json_async(){
             _dollarQuotation = _dollarQuotation[0] + "," + _dollarQuotation[1].substring(0,2);
    
             panelButtonText = new St.Label({
-                text : "(1 BRL = " + _dollarQuotation + " CLP)",
+                text : "(1 BRL = " + _dollarQuotation + "",
                 y_align: Clutter.ActorAlign.CENTER,
             });
 
@@ -111,7 +111,7 @@ function load_json_async(){
 
         } catch (e) {
             panelButtonText = new St.Label({
-                text : "(1 BRL = " + _dollarQuotation + " CLP)",
+                text : "(1 BRL = " + _dollarQuotation + "",
                 y_align: Clutter.ActorAlign.CENTER,
             });
 
