@@ -80,7 +80,7 @@ function load_json_async(){
 
     let message = Soup.form_request_new_from_hash(
         'GET', 
-        "https://economia.awesomeapi.com.br/last/BRL-USD", 
+        "https://economia.awesomeapi.com.br/last/USD-BRL", 
         {});
     
     _httpSession.queue_message(message, () => {
